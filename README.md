@@ -22,6 +22,7 @@ Zeigt einen eingehenden Alarm über einen Swissphone FME an.
 Die folgenden Voraussetzungen sind nötig, damit das Modul richtig funktioniert:
 * <a href="https://github.com/MichMich/MagicMirror" target="_blank" title="MagicMirror2">MagigMirror<sup>2</sup></a> (mind. v2.1.0)
 * <a href="https://www.npmjs.com/package/python-shell" target="_blank" title="python-shell">python-shell</a>
+* <a href="https://github.com/milaq/rpi-rf" target="_blank" title="rpi-rf">rpi-rf</a>
 * <a href="https://momentjs.com" target="_blank" title="moment.js">moment.js</a>
 
 ## Installation
