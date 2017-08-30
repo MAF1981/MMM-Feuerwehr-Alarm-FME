@@ -49,6 +49,7 @@ modules: [
 				// Needs to be developed and considered in the js file
 				text: 'Feuerwehr',
 				textBig: 'ALARM'
+				}
  }
 ]
 ````
