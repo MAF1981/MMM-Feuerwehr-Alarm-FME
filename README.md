@@ -18,4 +18,22 @@ Zeigt einen eingehenden Alarm über einen Swissphone FME an.
 </tr>
 </table>
 
+## Voraussetzungen
+The following dependencies are required and must be installed to be able to use this module:
+* <a href="https://github.com/MichMich/MagicMirror" target="_blank" title="MagicMirror2">MagigMirror<sup>2</sup></a> (mind. v2.1.0)
+* <a href="https://www.npmjs.com/package/python-shell" target="_blank" title="python-shell">python-shell</a>
+* <a href="https://momentjs.com" target="_blank" title="moment.js">moment.js</a>
+
+## Installation
+In einer Command-Shell ins "Modules" Verzeichnis der MagigMirror Installation wechseln:
+````
+cd ~/MagicMirror/modules
+````
+
+Repository klonen:
+````
+git clone https://github.com/MAF1981/MMM-Feuerwehr-Alarm-FME
+````
+
+Die MM `config.js` Datei anpassen.
 
