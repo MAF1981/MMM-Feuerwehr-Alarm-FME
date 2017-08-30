@@ -13,7 +13,7 @@ module.exports = NodeHelper.create({
 			mode: 'text',
 		};
 		const self = this;
-		const pyshell = new PythonShell('/modules/feuerwehr/scripts/alarmsniffer.py', {"mode": "json"});
+		const pyshell = new PythonShell('/modules/MMM-Feuerwehr-Alarm-FME/scripts/alarmsniffer.py', {"mode": "json"});
 		pyshell.on('message', function (message) {	 
 				console.log("Message " + message);
 			if (message.hasOwnProperty('alarm')){
