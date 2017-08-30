@@ -19,7 +19,7 @@ Zeigt einen eingehenden Alarm über einen Swissphone FME an.
 </table>
 
 ## Voraussetzungen
-The following dependencies are required and must be installed to be able to use this module:
+Die folgenden Voraussetzungen sind nötig, damit das Modul richtig funktioniert:
 * <a href="https://github.com/MichMich/MagicMirror" target="_blank" title="MagicMirror2">MagigMirror<sup>2</sup></a> (mind. v2.1.0)
 * <a href="https://www.npmjs.com/package/python-shell" target="_blank" title="python-shell">python-shell</a>
 * <a href="https://momentjs.com" target="_blank" title="moment.js">moment.js</a>
@@ -37,3 +37,18 @@ git clone https://github.com/MAF1981/MMM-Feuerwehr-Alarm-FME
 
 Die MM `config.js` Datei anpassen.
 
+## Module verwenden
+
+In der `config/config.js` muss MMM-Feuerwehr-Alarm-FME registriert werden:
+````javascript
+modules: [
+ {
+			module: 'MMM-Feuerwehr-Alarm-FME',
+			position: 'middle_center', // This can be any of the regions.
+			config: {
+				// Needs to be developed and considered in the js file
+				text: 'Feuerwehr',
+				textBig: 'ALARM'
+ }
+]
+````
