@@ -1,4 +1,4 @@
-Module.register("feuerwehr",{
+Module.register("MMM-Feuerwehr-Alarm-FME",{
 	
     // Default module config.
     defaults: {
